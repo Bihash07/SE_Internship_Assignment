@@ -1,0 +1,124 @@
+.login_page{
+    max-width: 400px;
+    margin: auto;
+    margin-top:50px;
+    color: #000;
+    padding: 0 15px;
+}
+.login_page h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 20px 0;
+    letter-spacing: 1.5px;
+}
+
+.login_page input{
+    width: 100%;
+    height: 45px;
+    margin: 10px 0;
+    border: 2px solid #777;
+    border-radius: 8px;
+    outline: none;
+    padding: 0 10px;
+}
+.login_page input:hover{
+    border: 1px solid #FF3941;
+}
+.login_page .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+}
+.login_page .row a{
+    color: #FF3941;
+}
+.login_page .row a:hover{
+    color: black;
+}
+.login_page .row button{
+    width: 150px;
+    padding: 10px 0;
+    background-color: #FF3941;
+    color: white;
+    border: 2px solid #FF3941;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition-duration:0.5s;
+    letter-spacing: 1.5px;
+    margin-top:20px;
+    margin-right: 10px;
+}
+.login_page .row button:hover{ 
+    background-color: white;
+    color: black;
+    border: 2px solid #1A1C1F;
+    
+}
+.login_page p{
+    margin: 10px 0;
+}
+.login_page a{
+    color: #111;
+    font-weight: 600;
+}
+
+/* Forgot Password */
+.fg_pass h2{
+    color: #1A1C1F;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin: 50px 0;
+    letter-spacing: 1.3px;
+}
+.fg_pass .row{
+    max-width: 500px;
+    margin: auto;
+    padding: 0 10px;
+}
+.fg_pass .row input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+.fg_pass .row input:hover{
+    border: 1px solid #FF3941;
+}
+.fg_pass .row button{
+    background-color: #FF3941;
+    color: white;
+    border: 2px solid #FF3941;
+    border-radius: 8px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin-top: 15px;
+}
+.fg_pass .row button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #1A1C1F;
+}
+
+/* Google */
+.login_page .hr{
+    margin: 25px 0 10px 0;
+    color: rgb(35, 35, 35);
+}
+
+.login_page .social button{
+    width: 60%;
+    margin:4px 0;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius:10px;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+    box-shadow: 0 2px 4px #777;
+}
